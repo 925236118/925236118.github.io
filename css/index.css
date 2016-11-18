@@ -1,6 +1,35 @@
-.content p {
-    color: black;
+body,p,a,h1,h2,h3,img{
+    margin: 0px;
+    padding: 0px;
 }
-.content p :hover{
+
+body{
+    background:url(../src/img/background.jpg);
+    background-attachment: fixed;
+}
+
+.head{
+    background: #FFFFFF;
+    text-align:center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.body{
+    background: #C2FACF;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.hepa{
+    color: black;
+    text-decoration: none;
+}
+
+.hepa:hover{
     color: red;
+    text-decoration: underline;
 }
