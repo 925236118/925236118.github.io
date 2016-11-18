@@ -1,0 +1,6 @@
+.content p {
+    color: black;
+}
+.content p :hover{
+    color: red;
+}
