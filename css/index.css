@@ -1,35 +1,22 @@
-body,p,a,h1,h2,h3,img{
-    margin: 0px;
-    padding: 0px;
+/*all*/
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background:url(../src/img/background.jpg);
-    background-attachment: fixed;
+/*contant*/
+.container{
+    margin-top: 5px;
+    background: #C6C6C6;
+    transition:all 0.5s ease-in-out;
 }
 
-.head{
-    background: #FFFFFF;
-    text-align:center;
+/*discription*/
+.discription{
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
-.body{
-    background: #C2FACF;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-
-}
-
-.hepa{
-    color: black;
-    text-decoration: none;
-}
-
-.hepa:hover{
-    color: red;
-    text-decoration: underline;
+/*changecolor*/
+#changecolor{
+    border-right: 1px #5F5F5F solid;
 }

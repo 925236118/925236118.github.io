@@ -1,22 +1,59 @@
 <!DOCTYPE html>
-<html lang="zh-CH">
-<head>
-    <meta name="keywords" content="吴方瑞/github/wfr">
+<html lang="zh-cn">
+  <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- my css -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <title>Welcome to my pages.</title>
-</head>
-<body>
-    <div class="head">
-        <div class="headtext">
-            <h1>Welcome</h1>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container" id="main">
+        <div id="header">
+            <h1 class="text-center">Welcome <span class="small">It's my text page.</span></h1>
             <hr>
-            <h2>It's my test page.</h2>
-            <br>
+            <div class="text-center" id="discription">
+                <h3>I'll use HTML,CSS,JavaScript and so on to build this page.</h3>
+                <h3>bootstrap make it beautiful.</h3>
+                <h3>js make it alive.</h3>
+            </div>
+        </div>
+        <div id="contant" class="row">
+            <div class="col-md-4" id="changecolor">
+                <div class="btn-group btn-group-vertical" >
+                    <p>Here are some buttons to change background's color.</p>
+                    <br>
+                    <button type ="button" class="btn btn-default" id= "green"   onclick="changecolor('#97FC97')" >Green</button>
+                    <button type ="button" class="btn btn-default" id= "red"     onclick="changecolor('#FF9696')" >Red</button>
+                    <button type ="button" class="btn btn-default" id= "blue"    onclick="changecolor('#8888F8')" >Blue</button>
+                    <button type ="button" class="btn btn-default" id= "default" onclick="changecolor('#C6C6C6')" >Default</button>
+                    <br>
+                    <input  class= "form-control" type="text" id="inputcolor">
+                    <button type ="button" class="btn btn-default" onclick="inputcolor()" >Change</button>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-8">
+
+            </div>
         </div>
     </div>
-    <div class="body">
-        <a href ="hellopage.html" class="hepa">hello, I'm wfr.</a>
-    </div>
-</body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- my js  -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
