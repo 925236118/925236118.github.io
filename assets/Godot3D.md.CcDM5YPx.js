@@ -1,0 +1,4 @@
+import{_ as o,c as a,o as d,j as e,a as t}from"./chunks/framework.3YdPo1hh.js";const u=JSON.parse('{"title":"Godot3D","description":"","frontmatter":{"date":"2024-06-06T00:00:00.000Z","title":"Godot3D"},"headers":[],"relativePath":"Godot3D.md","filePath":"Godot3D.md","lastUpdated":1744724908000}'),s={name:"Godot3D.md"},n=e("h1",{id:"godot3d",tabindex:"-1"},[t("Godot3D "),e("a",{class:"header-anchor",href:"#godot3d","aria-label":'Permalink to "Godot3D"'},"​")],-1),r=e("h2",{id:"_3d场景的三要素",tabindex:"-1"},[t("3D场景的三要素 "),e("a",{class:"header-anchor",href:"#_3d场景的三要素","aria-label":'Permalink to "3D场景的三要素"'},"​")],-1),c=e("pre",null,[e("code",null,`- 物体
+- 光源
+- 相机
+`)],-1),i=[n,r,c];function l(_,h,p,m,D,f){return d(),a("div",null,i)}const x=o(s,[["render",l]]);export{u as __pageData,x as default};
