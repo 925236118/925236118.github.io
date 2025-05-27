@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a6 as e}from"./chunks/framework.3YdPo1hh.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"SAI2.md","filePath":"SAI2.md","lastUpdated":1720438185000}'),t={name:"SAI2.md"},p=e("",6),l=[p];function i(c,o,r,d,h,_){return n(),s("div",null,l)}const u=a(t,[["render",i]]);export{b as __pageData,u as default};

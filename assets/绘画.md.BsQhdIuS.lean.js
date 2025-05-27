@@ -1,0 +1,1 @@
+import{_ as E,c as a,o as e,a6 as B}from"./chunks/framework.3YdPo1hh.js";const s=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"绘画.md","filePath":"绘画.md","lastUpdated":1720438185000}'),r={name:"绘画.md"},t=B("",6),l=[t];function _(o,n,h,i,A,F){return e(),a("div",null,l)}const f=E(r,[["render",_]]);export{s as __pageData,f as default};
