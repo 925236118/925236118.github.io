@@ -1,0 +1,4 @@
+import{_ as o,c as a,o as d,j as e,a as t}from"./chunks/framework.DQNfPlXe.js";const u=JSON.parse('{"title":"Godot3D","description":"","frontmatter":{"date":"2024-06-06T00:00:00.000Z","title":"Godot3D"},"headers":[],"relativePath":"indiegame/Godot3D.md","filePath":"indiegame/Godot3D.md","lastUpdated":1755000194000}'),n={name:"indiegame/Godot3D.md"},s=e("h1",{id:"godot3d",tabindex:"-1"},[t("Godot3D "),e("a",{class:"header-anchor",href:"#godot3d","aria-label":'Permalink to "Godot3D"'},"​")],-1),r=e("h2",{id:"_3d场景的三要素",tabindex:"-1"},[t("3D场景的三要素 "),e("a",{class:"header-anchor",href:"#_3d场景的三要素","aria-label":'Permalink to "3D场景的三要素"'},"​")],-1),i=e("pre",null,[e("code",null,`- 物体
+- 光源
+- 相机
+`)],-1),c=[s,r,i];function l(_,h,m,p,D,f){return d(),a("div",null,c)}const g=o(n,[["render",l]]);export{u as __pageData,g as default};
